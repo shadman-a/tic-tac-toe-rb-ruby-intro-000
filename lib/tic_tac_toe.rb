@@ -55,6 +55,7 @@ def turn(board)
   else
     puts "please enter 1-9:"
       input = gets.strip
+      turn(board)
     end
 end
 
