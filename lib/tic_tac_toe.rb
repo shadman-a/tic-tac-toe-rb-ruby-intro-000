@@ -53,8 +53,9 @@ def turn(board)
         move(board, input, "X")
         display_board(board)
   else
-    turn(board)
-  end
+    puts "please enter 1-9:"
+      input = gets.strip
+    end
 end
 
 
